@@ -14,7 +14,10 @@
         "laravel/tinker": "^2.8",
         "maatwebsite/excel": "^3.1",
         "spatie/laravel-image-optimizer": "^1.8",
-        "spatie/laravel-permission": "^6.9"
+        "spatie/laravel-permission": "^6.9",
+        "symfony/css-selector": "^6.0",
+        "symfony/event-dispatcher": "^6.0",
+        "symfony/string": "^6.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.13",
