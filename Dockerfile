@@ -27,8 +27,8 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Installer les dépendances PHP de Laravel
 RUN composer install --optimize-autoloader --no-dev
 
-# Exposer le port 80
-EXPOSE 80
+# Ajouter cette ligne à ton Dockerfile
+EXPOSE 8000
 
 # Commande à exécuter lorsque le conteneur démarre
 CMD ["php-fpm"]
