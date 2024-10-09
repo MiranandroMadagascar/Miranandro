@@ -28,7 +28,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN composer install --optimize-autoloader --no-dev
 
 # Ajouter cette ligne à ton Dockerfile
-EXPOSE 8000
+EXPOSE 80
 
 # Commande à exécuter lorsque le conteneur démarre
 CMD ["php-fpm"]
